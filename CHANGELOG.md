@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.219 (2022-07-11)
+
 ### 0.2.218 (2022-04-25)
 
 ### [0.2.217](https://github.com/solana-labs/token-list/compare/v0.2.214...v0.2.217) (2022-04-25)
