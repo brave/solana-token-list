@@ -11687,7 +11687,8 @@
       "extensions": {
         "discord": "https://discord.gg/garitoken",
         "twitter": "https://twitter.com/garitoken",
-        "website": "https://gari.network"
+        "website": "https://gari.network",
+        "coingeckoId": "gari-network"
       }
     }
   ],
