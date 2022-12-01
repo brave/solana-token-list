@@ -1,6 +1,6 @@
 {
   "name": "@brave/spl-token-registry",
-  "version": "0.2.223",
+  "version": "0.2.224",
   "description": "Solana Token Registry",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
