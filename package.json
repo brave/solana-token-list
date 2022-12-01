@@ -1,11 +1,11 @@
 {
-  "name": "@solana/spl-token-registry",
+  "name": "@brave/spl-token-registry",
   "version": "0.2.222",
   "description": "Solana Token Registry",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
   "module": "dist/module/index.js",
-  "repository": "https://github.com/solana-labs/token-list",
+  "repository": "https://github.com/brave/solana-token-list",
   "license": "Apache",
   "keywords": [],
   "scripts": {
@@ -39,7 +39,7 @@
     "reset-hard": "git clean -dfx && git reset --hard && npm i",
     "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish",
     "purge:cdn": "run-s purge:cdn:*",
-    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json"
+    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/gh/brave/solana-token-list@main/src/tokens/solana.tokenlist.json"
   },
   "engines": {
     "node": ">=14"

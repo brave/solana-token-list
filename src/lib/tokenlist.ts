@@ -61,7 +61,7 @@ export const CLUSTER_SLUGS: { [id: string]: ENV } = {
 
 export class GitHubTokenListResolutionStrategy {
   repositories = [
-    'https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens/solana.tokenlist.json',
+    'https://raw.githubusercontent.com/brave/solana-token-list/main/src/tokens/solana.tokenlist.json',
   ];
 
   resolve = () => {
@@ -71,7 +71,7 @@ export class GitHubTokenListResolutionStrategy {
 
 export class CDNTokenListResolutionStrategy {
   repositories = [
-    'https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json',
+    'https://cdn.jsdelivr.net/gh/brave/solana-token-list@main/src/tokens/solana.tokenlist.json',
   ];
 
   resolve = () => {
@@ -88,7 +88,7 @@ const queryJsonFiles = async (files: string[]) => {
         return json;
       } catch {
         console.info(
-          `@solana/token-registry: falling back to static repository.`
+          `@brave/spl-token-registry: falling back to static repository.`
         );
         return tokenlist;
       }
