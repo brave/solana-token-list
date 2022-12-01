@@ -1,6 +1,6 @@
-# @solana/spl-token-registry
+# @brave/spl-token-registry
 
-[![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
+[![npm](https://img.shields.io/npm/v/@brave/spl-token-registry)](https://unpkg.com/@brave/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/brave/solana-token-list/blob/master/LICENSE)
 
 Solana Token Registry is a package that allows application to query for list of tokens.
 The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
@@ -8,11 +8,11 @@ The JSON schema for the tokens includes: chainId, address, name, decimals, symbo
 ## Installation
 
 ```bash
-npm install @solana/spl-token-registry
+npm install @brave/spl-token-registry
 ```
 
 ```bash
-yarn add @solana/spl-token-registry
+yarn add @brave/spl-token-registry
 ```
 
 ## Examples
@@ -30,7 +30,7 @@ new TokenListProvider().resolve().then((tokens) => {
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
-import { TokenListProvider, TokenInfo } from '@solana/spl-token-registry';
+import { TokenListProvider, TokenInfo } from '@brave/spl-token-registry';
 
 
 export const Icon = (props: { mint: string }) => {
